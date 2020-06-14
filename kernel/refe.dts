@@ -1,0 +1,9 @@
+ncs8801s:ncs8801s@75 {
+	status = "okay";
+	compatible = "newcosemi,ncs8801s";
+	reg = <0x75>;
+	screen-w = <1366>;
+	screen-h = <768>;
+	rst_gpio = <&gpio4 8 GPIO_ACTIVE_LOW>;
+	pwd_gpio = <&gpio3 29 GPIO_ACTIVE_HIGH>;
+};  
